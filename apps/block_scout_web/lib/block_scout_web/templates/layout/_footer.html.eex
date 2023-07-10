@@ -47,6 +47,7 @@
           <%= render BlockScoutWeb.LayoutView, "_add_chain_to_mm.html" %>
         </ul>
       </div>
+      <--
       <% main_nets = main_nets(other_networks()) %>
 
       <%= unless Enum.empty?(main_nets) do %>
@@ -83,6 +84,7 @@
           </ul>
         </div>
       <% end %>
+      -->
     </div>
 
     <% version = version() %>
